@@ -1,3 +1,4 @@
+import ExpertCounter from "@/components/ExpertCounter";
 import {
 	Card,
 	CardContent,
@@ -21,7 +22,9 @@ const page = () => {
 					</CardTitle>
 				</CardHeader>
 
-				<CardContent></CardContent>
+				<CardContent>
+					<ExpertCounter />
+				</CardContent>
 			</Card>
 		</section>
 	);
