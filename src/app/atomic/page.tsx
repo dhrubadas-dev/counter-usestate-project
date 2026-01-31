@@ -1,4 +1,5 @@
-import BasicCounter from "@/components/BasicCounter";
+import GlobalCounter from "@/components/GlobalCounter";
+import GlobalCounterButtons from "@/components/GlobalCounterButtons";
 import {
 	Card,
 	CardContent,
@@ -8,8 +9,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Basic | Counter State App",
-	description: "Basic Counter State App",
+	title: "Atomic | Counter State App",
+	description: "Atomic Counter State App",
 };
 
 const page = () => {
@@ -18,12 +19,16 @@ const page = () => {
 			<Card className="w-xs">
 				<CardHeader>
 					<CardTitle className="grid place-items-center text-2xl">
-						Basic Counter App
+						Atomic Counter App
 					</CardTitle>
 				</CardHeader>
 
 				<CardContent>
-					<BasicCounter />
+					<div className="space-y-8">
+						<GlobalCounter />
+
+						<GlobalCounterButtons />
+					</div>
 				</CardContent>
 			</Card>
 		</section>
