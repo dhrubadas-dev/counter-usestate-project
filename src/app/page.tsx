@@ -1,3 +1,4 @@
+import BasicCounter from "@/components/BasicCounter";
 import {
 	Card,
 	CardContent,
@@ -21,7 +22,9 @@ const page = () => {
 					</CardTitle>
 				</CardHeader>
 
-				<CardContent></CardContent>
+				<CardContent>
+					<BasicCounter />
+				</CardContent>
 			</Card>
 		</section>
 	);
