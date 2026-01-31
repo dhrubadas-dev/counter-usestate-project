@@ -1,3 +1,4 @@
+import AdvancedCounter from "@/components/AdvancedCounter";
 import {
 	Card,
 	CardContent,
@@ -21,7 +22,9 @@ const page = () => {
 					</CardTitle>
 				</CardHeader>
 
-				<CardContent></CardContent>
+				<CardContent>
+					<AdvancedCounter />
+				</CardContent>
 			</Card>
 		</section>
 	);
