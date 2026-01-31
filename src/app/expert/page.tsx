@@ -7,8 +7,8 @@ import {
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-	title: "Basic | Counter State App",
-	description: "Basic Counter State App",
+	title: "Expert | Counter State App",
+	description: "Expert Counter State App",
 };
 
 const page = () => {
@@ -17,7 +17,7 @@ const page = () => {
 			<Card className="w-xs">
 				<CardHeader>
 					<CardTitle className="grid place-items-center text-2xl">
-						Basic Counter App
+						Expert Counter App
 					</CardTitle>
 				</CardHeader>
 
