@@ -1,3 +1,5 @@
+import GlobalCounter from "@/components/GlobalCounter";
+import GlobalCounterButtons from "@/components/GlobalCounterButtons";
 import {
 	Card,
 	CardContent,
@@ -21,7 +23,13 @@ const page = () => {
 					</CardTitle>
 				</CardHeader>
 
-				<CardContent></CardContent>
+				<CardContent>
+					<div className="space-y-8">
+						<GlobalCounter />
+
+						<GlobalCounterButtons />
+					</div>
+				</CardContent>
 			</Card>
 		</section>
 	);
